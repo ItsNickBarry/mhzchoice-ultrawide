@@ -1,0 +1,20 @@
+.vjs-fullscreen > #video_html5_api.ultrawide {
+  top: -168px !important;
+  height: initial !important;
+}
+
+.vjs-button.ultrawide {
+  cursor: pointer;
+  float: right;
+}
+
+.vjs-button.ultrawide.pushed {
+  color: #fff;
+  background-color: rgba(76, 76, 76, 0.3);
+}
+
+.vjs-button.ultrawide::before {
+  content: "▭";
+  font-size: 4em;
+  line-height: 0.85em;
+}
