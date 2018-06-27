@@ -1,5 +1,5 @@
 .vjs-fullscreen > #video_html5_api.ultrawide {
-  top: -168px !important;
+  top: calc(100vh / -6) !important;
   height: initial !important;
 }
 
