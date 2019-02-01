@@ -22,8 +22,8 @@ var run = function () {
   if (findElements()) {
     ultrawideButton = document.createElement('div');
 
-    ultrawideButton.classList.add('vjs-control')
-    ultrawideButton.classList.add('vjs-button')
+    ultrawideButton.classList.add('vjs-control');
+    ultrawideButton.classList.add('vjs-button');
     ultrawideButton.classList.add('ultrawide');
 
     ultrawideButton.title = 'Ultrawide';
